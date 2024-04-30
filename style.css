@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    background: #000000;
+    color: #fff;
+}
+.navlinks ul li a{
+    color: white;
+    display: inline-block;
+}
