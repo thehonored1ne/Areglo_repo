@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Dion.dev</h1>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        <div class="flex-container">
+            <div class="img"><img src="images/phone1.jpg">
+            <p>Realme c15</p>
+            <p>7,999 php</p>
+            </div>
+            <div class="img"><img src="images/phone2.jpg">
+            <p>samsung duo</p>
+            <p>10,999 php</p>
+            </div>
+            <div class="img"><img src="images/phone3.jpg">
+            <p>Samsung s24 ultra</p>
+            <p>50,999 php</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
