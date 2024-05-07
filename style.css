@@ -11,10 +11,11 @@ html{
 body{
     background: rgb(255, 255, 255);
 }
+
 nav{
     background: rgb(36, 36, 36);
     width: 100%;
-    height: 15vh;
+    height: 8vh;
     position: fixed;
     -webkit-box-shadow: 0px 3px 0px 0px rgba(255, 247, 5, 1);
     -moz-box-shadow: 0px 3px 0px 0px rgba(255, 247, 5, 1);
@@ -24,7 +25,7 @@ nav{
 nav ul li{
     display: inline-block;
     padding-right: 20px;
-    margin-left: 10px;
+    margin-left: 120px;
     
 }
 nav ul li a{
@@ -40,7 +41,7 @@ nav ul li a:hover{
 }
 .fa-microchip{
     color: #fff705;
-    margin: 30px 30px;
+    margin: 30px 70px;
     padding-right: 170px;
 }
 #contents{
@@ -92,8 +93,8 @@ nav ul li a:hover{
 }
 .left .profile{
     display: block;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin-left: 100px;
     margin-top: 50px;
     border-radius: 25px;
@@ -108,10 +109,10 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
     text-align: center;
 }
 .right .introduction{
-    width: 70%;
-    margin-left: 250px;
-    margin-top: -250px;
-    font-size: 20px;
+    width: 80%;
+    margin-left: 300px;
+    margin-top: -300px;
+    font-size: 35px;
 
 }
 .right .introduction span{
@@ -121,17 +122,17 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
 }
 .left .sub{
     margin-left: 120px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: -20px;
     font-size: 25px;
     color: #2f2f2f;
 }
 .container{
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     background: #272727;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 7px;
     margin-right: 150px;
     padding-top: 200px;
@@ -255,7 +256,7 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
 }
 .fa2{
     font-size: 30px;
-    margin-top: 22px;
+    margin-top: 20px;
     margin-left: 150px;
 }
 .right2{
@@ -277,6 +278,7 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
     height: 100vh;
     background: #fff705;
     margin-top: 450px;
+    justify-content: center;
 }
 #myhobby .about{
     font-size: 60px;
@@ -287,19 +289,21 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
 }
 .containers .content1 .items{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     padding-top: 30px;
+    margin-right: 30px;
 
 }
+.items img{
+    width: 100%;
+}
 .items div{
-
-    width: 200px;
-    height: 250px;
     flex-direction: row;
-    margin-left: 55px;
+    margin-left: 20px;
     padding-top: 50px;
     border-radius: 15px;
+    justify-content: center;
     
 }
 .content1 .items div{
@@ -325,6 +329,8 @@ img:hover{
 #contacts{
     height: 100vh;
     width: 100%;
+    margin-left: 250px;
+    margin-top: 150px;
 }
 /* Style inputs */
 input[type=text], select, textarea {
@@ -395,14 +401,14 @@ input[type=text], select, textarea {
 }
 .footer p{
     text-align: center;
-    padding: 15px 20px;
+    padding: 30px 20px;
 }
 .socials a i{
     font-size: 25px;
     margin-top: 5px;
     color: #f8f8f8;
     margin-right: 10px;
-    margin-left: 23px;
+    margin-left: 40px;
     text-wrap: nowrap;
     transition: 0.5s;
 
