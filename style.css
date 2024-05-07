@@ -131,10 +131,10 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
     position: relative;
     max-width: 1000px;
     width: 100%;
-    background: #272727;
     padding: 10px 30px;
+    background: #272727;
     border-radius: 7px;
-    margin-right: 150px;
+    margin-left: 150px;
     padding-top: 200px;
 }
 .container .skill-box{
@@ -228,6 +228,9 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
     height: 80vh;
     width: 100%;
 }
+.timeline .line2{
+    margin-top: -5px;
+}
 .fa-circle{
     font-size: 30px;
     margin-top: 100px;
@@ -256,7 +259,7 @@ box-shadow: 6px 6px 11px 0px rgba(48, 48, 58, 1);
 }
 .fa2{
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 150px;
 }
 .right2{
@@ -329,7 +332,6 @@ img:hover{
 #contacts{
     height: 100vh;
     width: 100%;
-    margin-left: 250px;
     margin-top: 150px;
 }
 /* Style inputs */
@@ -356,13 +358,15 @@ input[type=text], select, textarea {
   }
   
   /* Style the container/contact section */
-  .container {
+  .container3 {
     border-radius: 5px;
     background-color: #fff705;
     padding: 10px;
-    margin-left: 130px;
+    margin-left: 300px;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-right: 50px;
+    width: 70%;
   }
   
   /* Create two columns that float next to eachother */
@@ -408,7 +412,7 @@ input[type=text], select, textarea {
     margin-top: 5px;
     color: #f8f8f8;
     margin-right: 10px;
-    margin-left: 40px;
+    margin-left: 60px;
     text-wrap: nowrap;
     transition: 0.5s;
 
